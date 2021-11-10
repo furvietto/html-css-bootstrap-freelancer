@@ -72,11 +72,36 @@ header i,
     vertical-align: middle;
 }
 
-.portfolio .image {
+.portfolio img {
     width: 100%;
-    height: 300px;
-    background-color: salmon;
+    border-radius: 10px;
   }
+
+  /* position-relative */
+
+  .prova:hover img {
+    background-color: rgba(26, 188, 156, 1);
+  }
+
+  .p-relative {
+      position: relative;
+  }
+
+  .play-button-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    cursor: pointer;
+    display: none;
+  }
+
+  .prova:hover .play-button-img {
+    display: block;
+  }
+
 
 /* font-size */
 
