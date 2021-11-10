@@ -201,10 +201,18 @@ header .bar,
       font-size: 1.2em;
     }
 
-    header h1{
+    header {
+        padding-top:62px ;
+    }
+
+    h1{
         font-size: 2em;
     }
 
+    .font-s {
+        font-size: 2em;
+    }
+    
     nav {
         position: fixed;
         top: 0;
