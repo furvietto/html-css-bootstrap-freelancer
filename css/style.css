@@ -1,4 +1,4 @@
-
+/* background-color */
 
 .bc-color-red {
     background-color: red;
@@ -22,9 +22,13 @@
     background-color: wheat;
 }
 
+/* line-height */
+
 .line-h {
     line-height: 41px;
 }
+
+/* navbar */
 
 .nav-ham li a{
     color: white;
@@ -46,6 +50,8 @@ nav button:hover i{
     color: blue;
 }
 
+/* header */
+
 header img {
     width:200px;
 }
@@ -59,7 +65,8 @@ header .bar,
     background-color: white;
     }
 
-.portfolio .bar {
+.portfolio .bar,
+.contact-me .bar {
     display: inline-block;
     content: "";
     height: 3px;
@@ -67,9 +74,7 @@ header .bar,
     background-color: black;
     } 
 
-header i,
-.portfolio i,
-.about .fa-star {
+.fa-star {
     font-size: 1.5em;
     vertical-align: middle;
 }
@@ -79,7 +84,7 @@ header i,
     border-radius: 10px;
   }
 
-  .prova:hover .opacity {
+  .port-img:hover .opacity {
       display: block;
   }
 
@@ -93,39 +98,45 @@ header i,
       border-radius: 10px;
       display: none;   
   }
-  
-  .play-button-img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 4em;
-      cursor: pointer;
-      display: none;
-    }
-    
-    .prova:hover .play-button-img {
-        display: block;
-    }
-    
-    .about button {
-        border-radius: 3px;
-        border: 1px solid white;
-    }
-    
-    .p-relative {
-        position: relative;
-    }
-    /* font-size */
-    
-    .font-s {
-        font-size: 3em;
-    }
-    
-    .fa-download {
-        font-size: 0.7;
-    }
+
+.play-button-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    cursor: pointer;
+    display: none;
+}
+
+.port-img:hover .play-button-img {
+    display: block;
+}
+
+.about button {
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+/*position-relative  */
+
+.p-relative {
+    position: relative;
+}
+
+.bord-none {
+    border: none;
+}
+/* font-size */
+
+.font-s {
+    font-size: 3em;
+}
+
+.fa-download {
+    font-size: 0.7;
+}
 /* colori */
 
 .c-white {
