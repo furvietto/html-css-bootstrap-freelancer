@@ -91,20 +91,17 @@ header .bar,
     border-radius: 10px;
   }
 
-  .port-img:hover .opacity {
-      display: block;
+  .opacity {
+      background-color: green;
+      border-radius: 10px;
   }
 
-  .opacity {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: seagreen;
-      border-radius: 10px;
-      display: none;   
+  .opacity:hover img {
+      transition: 1s;
+      filter:opacity(0);
+      cursor: pointer;
   }
+
 
 .play-button-img {
     position: absolute;
@@ -212,7 +209,7 @@ header .bar,
     .font-s {
         font-size: 2em;
     }
-    
+
     nav {
         position: fixed;
         top: 0;
