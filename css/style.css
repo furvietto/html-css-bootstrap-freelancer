@@ -126,17 +126,18 @@ header .bar,
     border: 1px solid white;
 }
 
+.about button:hover {
+    background-color: blue;
+    color: black;
+    box-shadow: 5px 10px;
+}
+
 /* contact-me */
 
 .contact-me .form-floating .border-none {
     border-top:0;
     border-left: 0;
     border-right: 0;
-}
-
-.contact-me button {
-    border: 1px solid green;
-    border-radius: 3px;
 }
 
 /* location */
